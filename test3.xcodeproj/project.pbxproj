@@ -14,6 +14,7 @@
 		9DCE59B71C7D841E00695028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCE59B51C7D841E00695028 /* LaunchScreen.storyboard */; };
 		9DCE59C21C7D841E00695028 /* test3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE59C11C7D841E00695028 /* test3Tests.swift */; };
 		9DCE59CD1C7D841E00695028 /* test3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE59CC1C7D841E00695028 /* test3UITests.swift */; };
+		9DCE59DB1C7D8E4000695028 /* FileToll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE59DA1C7D8E4000695028 /* FileToll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9DCE59C81C7D841E00695028 /* test3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCE59CC1C7D841E00695028 /* test3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test3UITests.swift; sourceTree = "<group>"; };
 		9DCE59CE1C7D841E00695028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCE59DA1C7D8E4000695028 /* FileToll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileToll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				9DCE59AC1C7D841E00695028 /* AppDelegate.swift */,
 				9DCE59AE1C7D841E00695028 /* ViewController.swift */,
+				9DCE59DA1C7D8E4000695028 /* FileToll.swift */,
 				9DCE59B01C7D841E00695028 /* Main.storyboard */,
 				9DCE59B31C7D841E00695028 /* Assets.xcassets */,
 				9DCE59B51C7D841E00695028 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				9DCE59AF1C7D841E00695028 /* ViewController.swift in Sources */,
 				9DCE59AD1C7D841E00695028 /* AppDelegate.swift in Sources */,
+				9DCE59DB1C7D8E4000695028 /* FileToll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				9DCE59D31C7D841E00695028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DCE59D41C7D841E00695028 /* Build configuration list for PBXNativeTarget "test3Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				9DCE59D61C7D841E00695028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DCE59D71C7D841E00695028 /* Build configuration list for PBXNativeTarget "test3UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				9DCE59D91C7D841E00695028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

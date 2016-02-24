@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let button = UIButton(frame:CGRectMake(100, 100, 200, 38))
+       let button = UIButton(frame:CGRectMake(100, 100, 200, 38))
         
         
         button.backgroundColor = UIColor.redColor()
